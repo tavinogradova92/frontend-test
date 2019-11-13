@@ -8,12 +8,11 @@
 ```
 // Fork the repo
 
-
 // Clone the project
+git@github.com:YOUR_GITHUB_USER/frontend-test.git
 
-
-// Go into repo
-cd [REPO_FOLDER]
+// Change directory into project directory
+cd frontend-test
 
 // Install the project
 npm i
@@ -47,3 +46,4 @@ Here is a list of things we want you to do;
 - Write tests
 - Make a sub page for the items so when you click the button you route to the sub page 
 <br />(Note you can get single item by calling `http://localhost:3000/items/:id`)
+- Make page responsive
