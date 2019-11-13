@@ -36,7 +36,7 @@ Here is a small guide on how to see the developer specs for the design file
 
 Here is a list of things we want you to do; 
 
-- Use html and scss to style the layout of the page and a none dynamic sidebar
+- Use html and scss to style the layout of the page and a non-dynamic sidebar
 - Get the list of items from the mock server at `http://localhost:3000/items` show these items on the page
 - Make the items searchable by title
 - Indent the item based on the parent_id's in the list so it creates a tree stucture see design file where we indent based on where they are in the tree stucture
@@ -46,4 +46,4 @@ Here is a list of things we want you to do;
 - Write tests
 - Make a sub page for the items so when you click the button you route to the sub page 
 <br />(Note you can get single item by calling `http://localhost:3000/items/:id`)
-- Make page responsive
+- Make the layout responsive
