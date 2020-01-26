@@ -10,7 +10,7 @@
     border-bottom: solid $light-darker-blue;
 
     &__img {
-        margin-left: 20px;
+        padding-left: 20px;
     }
 }
 
@@ -27,7 +27,8 @@
     &__name {
         display: inline-block;
         align-self: center;
-        color: $dirty-blue; 
+        color: $dirty-blue;
+        font-size: 14px; 
     }
 
     &__opener {

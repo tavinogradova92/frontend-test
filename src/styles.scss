@@ -3,6 +3,12 @@
 // Global helpers
 @import './styles/layout';
 
+* {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
 // colors
 
 $light-blue: rgba(244, 249, 252, 1);
