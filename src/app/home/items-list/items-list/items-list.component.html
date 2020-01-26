@@ -1,6 +1,8 @@
-<div class="items-list">
-    <div class="items-list-item">
-        <div class="items-list-item__text">Item 1</div>
-        <button class="items-list-item__button">Button</button>
-    </div>
+<div 
+    *ngFor="let item of items" 
+    class="items-list">
+        <div class="items-list-item">
+            <div class="items-list-item__text">{{ item.title }}</div>
+            <button class="items-list-item__button">Button</button>
+        </div>
 </div>
