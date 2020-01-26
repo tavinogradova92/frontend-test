@@ -10,7 +10,7 @@
     border-bottom: solid $light-darker-blue;
 
     &__img {
-        padding-left: 20px;
+        padding-left: 3vw;
     }
 }
 
@@ -18,7 +18,7 @@
     display: flex;
     width: 20vw;
     justify-content: flex-end;
-    margin-right: 20px;
+    margin-right: 3vw;
     
     &__img {
         margin-right: 10px;
@@ -28,7 +28,8 @@
         display: inline-block;
         align-self: center;
         color: $dirty-blue;
-        font-size: 14px; 
+        font-size: 0.875rem; 
+        margin-right: 0.5vw;
     }
 
     &__opener {
