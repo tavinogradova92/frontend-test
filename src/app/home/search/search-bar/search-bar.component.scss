@@ -1,0 +1,32 @@
+@import '../../../../styles.scss';
+
+.search-bar {
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    height: 5vh;
+    border: 1px solid $light-grey;
+    border-radius: 5px;
+    background-color: $white;
+
+    &__input {
+        width: 57vw;
+        font-size: 0.875rem; 
+        padding-left: 10px;
+        color: $dark-grey;
+        opacity: 0.5;
+    }
+
+    &__button {
+        background-color: transparent;
+        outline: none;
+        cursor: pointer;
+        margin-right: 1vw;
+    }
+
+    &__button img {
+        width: 1vw;
+        text-align: center;
+    }
+}
