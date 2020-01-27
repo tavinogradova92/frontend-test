@@ -1,11 +1,12 @@
 @import '../../styles.scss';
 
 .main-content {
-    height: 100vh;
+    height: fit-content;
     width: 73.7vw;
     margin-left: 20vw;
     padding-left: 5vw;
     padding-top: 8vh;
+    padding-bottom: 5vh;
     background-color: $light-blue;
 }
 
