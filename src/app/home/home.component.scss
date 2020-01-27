@@ -20,24 +20,28 @@
     background-color: $white;
 
     &__input {
-        width: 67vw;
+        width: 70vw;
         font-size: 0.875rem; 
         padding-left: 10px;
         color: $dark-grey;
-        opacity: 0.5;
+        opacity: 1;
     }
 
-    &__button {
-        background-color: transparent;
-        outline: none;
-        cursor: pointer;
+    &__input:focus {
+        outline: none !important;
+    }
+
+    &__img {
+        display: flex;
+        align-self: center;
         margin-right: 1vw;
-    }
-
-    &__button img {
-        width: 1vw;
         text-align: center;
     }
+
+}
+
+::placeholder {
+    opacity: 0.5;
 }
 
 .items-list {
