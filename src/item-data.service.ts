@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Item } from './interfaces/item';
 
 @Injectable({
   providedIn: 'root'
@@ -12,6 +13,6 @@ export class ItemDataService {
   constructor(private http: HttpClient) { }
 
   getItems() {
-    return this.http.get(this.url);
+    return this.http.get<Item>(this.url);
   }
 }
