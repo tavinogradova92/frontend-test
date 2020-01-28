@@ -67,6 +67,11 @@
             font-size: 1.5rem;
             letter-spacing: 0;
             font-weight: 600;
+
+            @media screen and (max-width: 750px) {
+                font-size: 1rem;
+                margin-left: 2vw;
+            }
         }
     
         &__button {
@@ -78,6 +83,11 @@
             font-size: 0.875rem;
             margin-right: 1vw;
             cursor: pointer;
+
+            @media screen and (max-width: 750px) {
+                font-size: 0.7rem;
+                margin-right: 3vw;
+            }
         }
     }
 }
