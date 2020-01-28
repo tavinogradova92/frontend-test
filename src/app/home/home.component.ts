@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ItemDataService } from '../../item-data.service';
+
 import { Item } from '../../interfaces/item';
 declare var require: any;
 
