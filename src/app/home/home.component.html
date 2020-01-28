@@ -16,15 +16,16 @@
     <div 
         *ngFor="let item of items | filter: searchText" 
         class="items-list">
-        <div class="items-list-item">
-            <div 
-                class="items-list-item__text">
-                    {{ item.title }}
-            </div>
-            <button 
-                class="items-list-item__button">
-                    Button
-            </button>
+            <div class="items-list-item" 
+                [style.margin-left.vw]="item.depth*2"
+                [style.width.vw]="70-item.depth*2">
+                    <div class="items-list-item__text">
+                            {{ item.title }}
+                    </div>
+                    <button 
+                        class="items-list-item__button">
+                            Button
+                    </button>
         </div>
     </div>
         <div *ngIf="(items | filter:searchText).length < 1">
