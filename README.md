@@ -22,3 +22,23 @@ what I would like to learn how to use:
 3. Adobe XD (the way UX Designers work are of great inspiration for me and having photography background I also would like to go deeper into styles and UX design).
 
 Basically, the most exciting part for me was dealing with CSS styles, I can do it forever. Logic and data structure was the most complicated one, but it was a great opportunity to learn new things.
+
+# Start the project
+```
+// Fork the repo
+
+// Clone the project
+git@github.com:YOUR_GITHUB_USER/frontend-test.git
+
+// Change directory into project directory
+cd frontend-test
+
+// Install the project
+npm i
+
+// Run the application
+npm start
+
+// Run the mock server
+npm run start:server
+```
