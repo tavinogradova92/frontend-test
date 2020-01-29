@@ -1,49 +1,23 @@
 # Cobiro frontend test
 
-## Pre requisits
-- Node v12.x
+What I could implement in this project:
 
-## Start the project
+1. Custom created CSS styles with use of CSS Grid and Flexbox only
+2. Use of interfaces and services
+3. RxJS
+4. Search pipe
+5. Working with data structure, creating a function which makes tree structure flat again in a right sequential order with depth calculation. NPM 'list-to-tree' being used for that. I may say that it was the most difficult part for me and the most time-consuming. The function is a pure JavaScript, but I would love to learn how to implement it with Typescript syntax in the future
+6. Media queries for responsive layout.
+7. And surely significant Angular manipulations like style, data, property binding etc.
 
-```
-// Fork the repo
+What I can also do, but did not implement in this project:
+1. Responsive design for smartphones creating a toggle sidenav element
+2. Data structure manipulations with Typescript, not JS
+3. Make sub pages for items with routers
 
-// Clone the project
-git@github.com:YOUR_GITHUB_USER/frontend-test.git
+what I would like to learn how to use:
+1. Unit tests
+2. NodeJS
+3. Adobe XD (the way UX Designers work are of great inspiration for me and having photography background I also would like to go deeper into styles and UX design).
 
-// Change directory into project directory
-cd frontend-test
-
-// Install the project
-npm i
-
-// Run the application
-npm start
-
-// Run the mock server
-npm run start:server
-```
-
-## Design spec
-
-Here we provide a url with the design spec on what you will be making:
-https://xd.adobe.com/view/28004468-172c-41f8-6b22-b719d5d9b0d4-5e31
-
-Here is a small guide on how to see the developer specs for the design file 
-![Guide for specs](./design-specs-guide.gif)
-
-## Task
-
-Here is a list of things we want you to do; 
-
-- Use html and scss to style the layout of the page and a non-dynamic sidebar
-- Get the list of items from the mock server at `http://localhost:3000/items` show these items on the page
-- Make the items searchable by title
-- Indent the item based on the parent_id's in the list so it creates a tree stucture see design file where we indent based on where they are in the tree stucture
-
-## Bonus points
-
-- Write tests
-- Make a sub page for the items so when you click the button you route to the sub page 
-<br />(Note you can get single item by calling `http://localhost:3000/items/:id`)
-- Make the layout responsive
+Basically, the most exciting part for me was dealing with CSS styles, I can do it forever. Logic and data structure was the most complicated one, but it was a great opportunity to learn new things.
