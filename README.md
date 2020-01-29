@@ -16,7 +16,7 @@ What I can also do, but did not implement in this project:
 2. Data structure manipulations with Typescript, not JS
 3. Make sub pages for items with routers
 
-what I would like to learn how to use:
+What I would like to learn how to use:
 1. Unit tests
 2. NodeJS
 3. Adobe XD (the way UX Designers work are of great inspiration for me and having photography background I also would like to go deeper into styles and UX design).
