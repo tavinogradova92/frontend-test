@@ -22,5 +22,3 @@ what I would like to learn how to use:
 3. Adobe XD (the way UX Designers work are of great inspiration for me and having photography background I also would like to go deeper into styles and UX design).
 
 Basically, the most exciting part for me was dealing with CSS styles, I can do it forever. Logic and data structure was the most complicated one, but it was a great opportunity to learn new things.
-
-![Project screenshot](https://www.dropbox.com/s/73r9iahg9gvhaf4/cobiro.jpg)
